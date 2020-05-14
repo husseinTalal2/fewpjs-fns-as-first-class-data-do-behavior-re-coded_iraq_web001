@@ -11,12 +11,12 @@ function handleClick(e) {
 
 function greet(time){
   timeDivide = time.split(":");
-  if (timeDivide[0].parseInt()<12) {
+  if (parseInt(timeDivide[0])<12) {
     return "Good Morning";
-  } else if(timeDivide[0].parseInt()<17 && timeDivide[0]>=12) {
+  } else if(parseInt(timeDivide[0])<17 && timeDivide[0]>=12) {
     return "Good Afternoon";
   }
-  else if (timeDivide[0].parseInt()>=17) {
+  else if (parseInt(timeDivide[0])>=17) {
     return "Good Evening";
   }
 }
