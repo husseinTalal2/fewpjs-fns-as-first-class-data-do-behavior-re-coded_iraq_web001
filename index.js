@@ -18,7 +18,7 @@ function greet(time){
   }
   else if (timeDivide[0].parseInt()>=17) {
     return "Good Evening";
-  } 
+  }
 }
 /* Write your implementation of displayMessage() */
 
