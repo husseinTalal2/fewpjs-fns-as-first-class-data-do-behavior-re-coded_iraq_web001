@@ -10,7 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time){
-  timeDivide = time.splite(":");
+  timeDivide = time.split(":");
   if (timeDivide[0].parseInt()<12) {
     return "Good Morning";
   } else if(timeDivide[0].parseInt()<17 && timeDivide[0]>=12) {
