@@ -11,7 +11,6 @@ function handleClick(e) {
 
 function greet(timeString){
   let time = timeString;
-  console.log(time);
   let timeDivide = time.split(":");
   console.log(timeDivide[0]);
   if (parseInt(timeDivide[0])<12) {
