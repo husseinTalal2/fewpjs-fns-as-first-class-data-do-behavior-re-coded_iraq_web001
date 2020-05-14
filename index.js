@@ -31,4 +31,3 @@ function handleClick(e) {
 
 
 /* Write your implementation of displayMessage() */
-
