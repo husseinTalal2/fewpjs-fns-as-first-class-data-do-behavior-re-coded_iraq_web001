@@ -1,13 +1,9 @@
-/* Given Code, don't edit */
-
-function handleClick(e) {
-  const timeString = document.getElementById('time').value
-  displayMessage(greet(timeString))
+function displayMessage(greetMsg){
+  greetMsg = greet()
+  let greeting = document.getElementById('greeting');
+  greeting.textContent = greetMsg;
 }
 
-/* End Given Code, don't edit above here...*/
-
-/* Write your implementation of greet() */
 
 function greet(timeString){
   let time = timeString;
@@ -22,10 +18,17 @@ function greet(timeString){
     return "Good Evening";
   }
 }
+/* Given Code, don't edit */
+
+function handleClick(e) {
+  const timeString = document.getElementById('time').value
+  displayMessage(greet(timeString))
+}
+
+/* End Given Code, don't edit above here...*/
+
+/* Write your implementation of greet() */
+
+
 /* Write your implementation of displayMessage() */
 
-function displayMessage(greetMsg){
-  greetMsg = greet()
-  let greeting = document.getElementById('greeting');
-  greeting.textContent = greetMsg;
-}
