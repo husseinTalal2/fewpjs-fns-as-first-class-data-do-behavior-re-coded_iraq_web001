@@ -28,4 +28,5 @@ function displayMessage(greetMsg){
   //greetMsg = greet()
   let greeting = document.getElementById('greeting');
   greeting.textContent = greetMsg;
+  console.log(greetMsg);
 }
