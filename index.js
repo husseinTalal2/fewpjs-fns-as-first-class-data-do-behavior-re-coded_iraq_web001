@@ -10,6 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(time){
+  console.log(time);
   let timeDivide = time.split(":");
   console.log(timeDivide[0]);
   if (parseInt(timeDivide[0])<12) {
