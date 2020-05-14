@@ -9,7 +9,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-function greet(time){
+function greet( let time){
   console.log(time);
   let timeDivide = time.split(":");
   console.log(timeDivide[0]);
